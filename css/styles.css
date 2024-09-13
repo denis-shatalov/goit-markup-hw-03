@@ -112,6 +112,7 @@ color: #404bbf;
 
 .hero-section {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 .hero-section-text {
     font-weight: 700;
@@ -120,6 +121,7 @@ color: #404bbf;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        max-width: 496px;
 }
 .button {
     font-family: inherit;
@@ -130,6 +132,11 @@ color: #404bbf;
         color: #fff;
         background-color: #4d5ae5;
         cursor: pointer;
+        display: block;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        border-radius: 4px;
 }
 .button:hover,
 .button:focus {
