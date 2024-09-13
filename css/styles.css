@@ -20,6 +20,10 @@ a {
     text-decoration: none;
 }
 
+img {
+    display: block
+}
+
 .container {
     max-width: 1158px;
     padding: 0 15px;
@@ -37,7 +41,7 @@ a {
 
 .header-nav {
     display: flex;
-        align-items: center;
+    align-items: center;
 }
 
 .logo {
@@ -113,6 +117,7 @@ color: #404bbf;
 .hero-section {
     background-color: #2e2f42;
     padding: 188px 0;
+    text-align: center;
 }
 .hero-section-text {
     font-weight: 700;
@@ -122,6 +127,8 @@ color: #404bbf;
         text-align: center;
         color: #fff;
         max-width: 496px;
+        margin: auto;
+        margin-bottom: 48px;
 }
 .button {
     font-family: inherit;
@@ -137,6 +144,7 @@ color: #404bbf;
         height: 56px;
         border: none;
         border-radius: 4px;
+        margin: auto;
 }
 .button:hover,
 .button:focus {
